@@ -1,0 +1,137 @@
+
+
+
+body{
+	 background-color: grey;
+ }
+ 
+
+
+h1{
+	color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.boldclass{
+	font-weight: bold;
+}
+#bigID{
+	font-size: 24px;
+}
+
+.bink{
+	font-weight: bold;
+	color: brown;
+}
+
+a {
+  color: blue;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*area used for comments-to be deleted later*/
+
+.link { color: #FF0000; } 
+
+p.solid {border-style: solid;}
+
+li {
+  display: inline;
+}
+
+</style>
+</head>
+<body>
+
+
+{
+<ul>
+  <li><a href="/projects/default.asp" target="_blank">projects</a></li>
+  <li><a href="/about me/default.asp" target="_blank">about me</a></li>
+  <li><a href="/contact/default.asp" target="_blank">contact</a></li>
+</ul>
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+div {
+  width: 200px;
+  height: 50px;
+  background-color: #eee;
+  overflow: visible;
+}
+
+h1.hidden {
+  display: none;
+}
+
+a {
+  display: block;
+}
+
+
+div p {
+  background-color: yellow;
+}
+
+div > p {
+  background-color: yellow;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(img_navsprites.gif) 0 0;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+input {
+  width: 100%;
+}
+
+body {
+  counter-reset: section;
+}
+
+#example1 {
+  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+#p1 {background-color: rgba(255, 0, 0, 0.3);}  /* red with opacity */
+
+h {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
